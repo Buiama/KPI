@@ -1,4 +1,4 @@
-# BP-2_labs
+# PB-2_labs
 Programming basics - 2. Modular programming
 
 Variant 5
