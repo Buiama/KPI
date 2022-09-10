@@ -1,0 +1,6 @@
+﻿  Functions.cpp
+  Lab_5_c++.cpp
+C:\Users\Пользователь\OneDrive\Документы\KPI\ОП\ОП-1\ОП-1-2\Лабы\Лаб_5\Lab_5_c++\Lab_5_c++.cpp(8,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Storage.cpp
+  Создание кода...
+  Lab_5_c++.vcxproj -> C:\Users\Пользователь\OneDrive\Документы\KPI\ОП\ОП-1\ОП-1-2\Лабы\Лаб_5\Lab_5_c++\Debug\Lab_5_c++.exe
