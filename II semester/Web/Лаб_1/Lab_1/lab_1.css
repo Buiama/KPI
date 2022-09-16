@@ -1,0 +1,135 @@
+body {
+	margin: 0;
+	font-family: Vernanda;
+	font-size: 2vh;
+	text-align: right;
+}
+
+::selection {
+  color: red;
+  background: gold;
+}
+header, footer {
+	height: 20vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	background: linear-gradient(to right, #6DABE8, #ACE7FF, #6DABE8);
+	background-repeat: no-repeat;
+	justify-content: space-between;
+}
+.headfoot {
+	margin-left: 3vw;
+	padding-right: 1vw;
+	padding-left: 1vw;
+	min-width: 20%;
+	height: 10vh;
+	background-color: #ACE7FF;
+	overflow: hidden;
+}
+.foot {
+	text-align: left;
+}
+main {
+	height: 60vh;
+	width: 100vw;
+}
+p {
+	margin: 0;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+p:first-letter {
+	color: red;
+	font-size: 3.5vh;
+	font-family: "Arial";
+}
+.left {
+	width: 70vw;
+	float: left;
+}
+.right {
+	width: 30vw;
+	height: 60vh;
+	float: right;
+	color: white;
+	background-color: #568CC7;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+.top {
+	height: 45vh;
+}
+.bottom {
+	height: 15vh;
+	background-color: #A3E6BE;
+	display: flex;
+	align-items: center;
+	text-align: left;
+	overflow: hidden;
+}
+.first {
+	margin-left: 30%;
+	max-height: 100%;
+	overflow: hidden;
+}
+.second {
+	float: left;
+	width: 30%;
+	height: 100%;
+	background-color: navajowhite;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+.third {
+	float: right;
+	width: 70%;
+	height: 100%;
+	background-color: lightgray;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+.link {
+	margin-right: 2vw;
+	padding: 1vh;
+	border-radius: 10vh;
+	transition-duration: 0.5s;
+}
+.link:hover {
+	background: violet;
+	color: white;
+}
+.link:focus {
+	background: darkviolet;
+	color: white;
+}
+ol.fruits-list {
+	color: indigo;
+	font-weight: normal;
+}
+ol.vegetables-list {
+	color: red;
+	font-weight: normal;
+}
+.tmpS {
+	text-align: left;
+}
+[href*="https:"] { color: darkgreen; }
+[target] {color: darkgreen;}
+[href$="google.com"] { color: #667; }
+[target]::after {
+    content: '\21F1';
+    display: inline-block;
+    transform: rotate(90deg);
+    color: red;
+}
+.icon {
+	height: 50%;
+	width:  15vw;
+}
