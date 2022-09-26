@@ -1,0 +1,146 @@
+::selection {
+  color: red;
+  background: gold;
+}
+body {
+	min-height: 100vh;
+	max-width: 100vw;
+	margin: 0;
+	text-align: right;
+	font-size: 2vh;
+	font-family: Vernanda;
+}
+
+header, footer {
+	display: flex;
+	min-height: 20vh;
+	justify-content: space-between;
+	align-items: center;
+	background: linear-gradient(to right, #6DABE8, #ACE7FF, #6DABE8);
+	background-repeat: no-repeat;
+}
+.headfoot, .first {
+	display: inline-flex;
+}
+.first {
+	width: 45vw;
+	flex-direction: row-reverse;
+}
+.hf {
+	width: 20vw;
+	margin-left: 3vw;
+	padding-top: 0.1vh;
+	padding-bottom: 0.1vh;
+	padding-right: 1vw;
+	padding-left: 1vw;
+	background-color: #ACE7FF;
+}
+p {
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+p:first-letter {
+	color: red;
+	font-size: 3.5vh;
+	font-family: "Arial";
+}
+
+main {
+	display: flex;
+	min-height: 60vh;
+	max-width: 100vw;
+}
+.left {
+	display: flex;
+	width: 400vw;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+.top {
+	display: flex;
+	min-height: 45vh;
+	width: 100%;
+}
+.second {
+	display: inline-flex;
+	width: 42.8%;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: navajowhite;
+}
+.third {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	background-color: lightgray;
+}
+.bottom {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	text-align: left;
+	background-color: #A3E6BE;
+}
+.right {
+	display: inline-flex;
+	width: 171.2vw;
+	justify-content: flex-end;
+	align-items: center;
+	color: white;
+	background-color: #568CC7;
+	overflow-wrap: break-word;
+}
+.foot {
+	text-align: left;
+}
+
+
+.link {
+	margin-right: 2vw;
+	padding: 1vh;
+	line-height: 3;
+	border-radius: 10vh;
+	transition-duration: 0.5s;
+}
+.link:hover {
+	color: white;
+	background: violet;
+}
+.link:focus {
+	color: white;
+	background: darkviolet;
+}
+ul {
+	margin-top: 0;
+}
+ol.fruits-list {
+	color: indigo;
+	font-weight: normal;
+}
+ol.vegetables-list {
+	color: red;
+	font-weight: normal;
+}
+.tmpS {
+	float: right;
+	text-align: left;
+}
+[href*="https:"] { color: darkgreen; }
+[target] {color: darkgreen;}
+[href$="google.com"] { color: #667; }
+[href*="buiama.github.io"] { color: royalblue; }
+[target]::after {
+    content: '\21F1';
+    display: inline-block;
+    transform: rotate(90deg);
+    color: red;
+}
+.icon {
+	height: 60%;
+	width:  15vw;
+	float: right;
+}

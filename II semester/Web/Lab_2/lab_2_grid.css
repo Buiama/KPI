@@ -1,0 +1,141 @@
+::selection {
+  color: red;
+  background: gold;
+}
+.container {
+	margin: 0;
+	display: grid;
+	grid-template-columns: minmax(min-content, 21vw) 34vw 15vw minmax(min-content, 30vw);
+	grid-template-areas: 
+	'headLeft headLeft headRight headRight'
+	'left main main right'
+	'bottom bottom bottom right'
+	'footLeft footLeft footRight footRight';
+	text-align: right;
+	font-size: 2vh;
+	font-family: Vernanda;
+}
+.hf {
+	width: 20vw;
+	margin-left: 3vw;
+	padding-right: 1vw;
+	padding-left: 1vw;
+	background-color: #ACE7FF;
+}
+.head {
+	grid-area: headLeft;
+	display: grid;
+	min-height: 20vh;
+	align-items: center;
+	background: linear-gradient(to right, #6DABE8, #ACE7FF 91%, #a6e1fc);
+	background-repeat: no-repeat;
+}
+.first {
+	grid-area: headRight;
+	display: grid;
+	min-height: 20vh;
+	align-items: center;
+	background: linear-gradient(to right, #a6e1fc 0%, #6DABE8);
+	background-repeat: no-repeat;
+}
+.second {
+	grid-area: left;
+	display: grid;
+	min-height: 45vh;
+	justify-content: end;
+	align-items: center;
+	background-color: navajowhite;
+}
+.third {
+	grid-area: main;
+	display: grid;
+	min-height: 45vh;
+	align-items: center;
+	background-color: lightgray;
+}
+.bottom {
+	grid-area: bottom;
+	display: grid;
+	min-height: 15vh;
+	align-items: center;
+	text-align: left;
+	background-color: #A3E6BE;
+}
+.right {
+	grid-area: right;
+	display: grid;
+	min-height: 60vh;
+	align-items: center;
+	color: white;
+	background-color: #568CC7;
+}
+.foot {
+	grid-area: footLeft;
+	display: grid;
+	min-height: 20vh;
+	align-items: center;
+	text-align: left;
+	background: linear-gradient(to right, #6DABE8, #ACE7FF 91%, #a6e1fc);
+	background-repeat: no-repeat;
+}
+.sixth {
+	grid-area: footRight;
+	display: grid;
+	min-height: 20vh;
+	justify-content: end;
+	align-items: center;
+	align-content: center;
+	background: linear-gradient(to right, #a6e1fc 0%, #6DABE8);
+	background-repeat: no-repeat;
+}
+p {
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+p:first-letter {
+	color: red;
+	font-size: 3.5vh;
+	font-family: "Arial";
+}
+.link {
+	margin-right: 2vw;
+	padding: 1vh;
+	line-height: 3;
+	border-radius: 10vh;
+	transition-duration: 0.5s;
+}
+.link:hover {
+	color: white;
+	background: violet;
+}
+.link:focus {
+	color: white;
+	background: darkviolet;
+}
+ol.fruits-list {
+	color: indigo;
+	font-weight: normal;
+}
+ol.vegetables-list {
+	color: red;
+	font-weight: normal;
+}
+.tmpS {
+	float: right;
+	text-align: left;
+}
+[href*="https:"] { color: darkgreen; }
+[target] {color: darkgreen;}
+[href$="google.com"] { color: #667; }
+[href*="buiama.github.io"] { color: royalblue; }
+[target]::after {
+    content: '\21F1';
+    display: inline-block;
+    transform: rotate(90deg);
+    color: red;
+}
+.icon {
+	height: 100%;
+	width:  15vw;
+	float: right;
+}
